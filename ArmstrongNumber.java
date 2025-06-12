@@ -17,11 +17,11 @@ public class PalindromeNumber {
 			
 		}
 		if(temp==sum) {
-			System.out.println("Armstrong number");
+			System.out.println("Palindrome");
 		}
 		else
 		{
-			System.out.println("Not an Armstrong number");
+			System.out.println("Not an Palindrome");
 		}
 	}
 
