@@ -6,7 +6,7 @@ public class PalindromeNumber {
 
 	public static void main(String[] args) {
 		Scanner s=new Scanner(System.in);
-		System.out.println("Enter a number to check Armstrong");
+		System.out.println("Enter a number to check Palindrome");
 		int num=s.nextInt();
 		int sum=0,r,temp;
 		temp=num;
@@ -21,7 +21,7 @@ public class PalindromeNumber {
 		}
 		else
 		{
-			System.out.println("Not an Palindrome");
+			System.out.println("Not a Palindrome");
 		}
 	}
 
